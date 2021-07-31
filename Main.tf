@@ -4,8 +4,8 @@ terraform {
   required_version = ">= 0.12.24"
 
   backend "s3" {
-    bucket = "cloudquickpocsbackendtf"
-    key    = "quickcloudpocsbackend_2.tfstate"
+    bucket = "firstbackendtf"
+    key    = "tfbackend_1.tfstate"
     region = "us-east-1"
   }
 }
