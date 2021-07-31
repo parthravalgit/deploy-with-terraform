@@ -4,8 +4,8 @@ terraform {
   required_version = ">= 0.12.24"
 
   backend "s3" {
-    bucket = "firstbackendtf"
-    key    = "tfbackend_1.tfstate"
+    bucket = "my-s3-tf-test-bucket"
+    key    = "terraform.tfstate"
     region = "us-east-2"
   }
 }
